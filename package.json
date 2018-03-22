@@ -12,5 +12,18 @@
     "electron": "^1.8.4",
     "electron-packager": "^11.1.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TravorLZH/hello-electron.git"
+  },
+  "keywords": [
+    "hello-world",
+    "electron"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TravorLZH/hello-electron/issues"
+  },
+  "homepage": "https://github.com/TravorLZH/hello-electron#readme"
 }
