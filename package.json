@@ -1,0 +1,16 @@
+{
+  "name": "hello-electron",
+  "version": "1.0.0",
+  "description": "The first desktop App I created in JavaScript",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-win": "electron-packager . --override --asar --platform=win32 --arch=ia32 --prune=true --out-release-builds --version-string.ProductName=HelloElectron"
+  },
+  "author": "Travor Liu",
+  "dependencies": {
+    "electron": "^1.8.4",
+    "electron-packager": "^11.1.0"
+  },
+  "devDependencies": {}
+}
